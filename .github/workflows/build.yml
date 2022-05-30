@@ -7,8 +7,15 @@ name: build
 # the main branch, when either C# or project files changed
 on:
   push:
+    branches:
+      - 'main'
+      - 'RELEASE/v**'
+    paths-ignore:
+    - 'README.md'
   pull_request:
-    branches: [ main ]
+    branches:
+      - 'main'
+      - 'RELEASE/v**'
     paths-ignore:
     - 'README.md'
 
@@ -46,8 +53,8 @@ jobs:
 
     # 4) Build a project or solution and all of its dependencies.
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build -c Release --no-restore
 
     # 5) Test a project or solution.
     - name: Test
-      run: dotnet test --no-restore --verbosity normal1
+      run: dotnet test -c Release --no-restore --no-build --verbosity normal --filter "Category!=LongRunning"
