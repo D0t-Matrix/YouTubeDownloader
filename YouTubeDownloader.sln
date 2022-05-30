@@ -22,6 +22,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.Converter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.Tests", "YoutubeDownloader.Tests\YouTubeDownloader.Tests.csproj", "{9373502E-D3FC-4192-BF93-57D89E84FFCB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6C9729C0-7919-4F76-B485-ED8218836E24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{DA0FFD5F-CB97-4B74-9AB5-672B93F219C3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +54,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C9729C0-7919-4F76-B485-ED8218836E24} = {72091667-5AB2-4AB6-ACB7-CE2A238C39DF}
+		{DA0FFD5F-CB97-4B74-9AB5-672B93F219C3} = {6C9729C0-7919-4F76-B485-ED8218836E24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6791E0C2-BC61-4D6A-B56D-F4EC9A21281E}
