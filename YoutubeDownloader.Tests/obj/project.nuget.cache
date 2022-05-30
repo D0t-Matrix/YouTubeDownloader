@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1U7M5Aw+FtR//MglxoGJ/pt8HWUccVCKNN/aagUqBjjN81N8idgJawXbGFsUaJIOADvjKUe9uQ4BiByz/z7BQ==",
+  "dgSpecHash": "mn3qAusvHdFdVHEa3YHa4r8zxhJWHEn8owgnwA5ZAA1oTtESX55L3kC33Pco2b7evSJzOBZHCbl/nyyWowdamw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domat\\source\\repos\\YouTubeDownloader\\YoutubeDownloader.Tests\\YouTubeDownloader.Tests.csproj",
+  "projectFilePath": "C:\\Users\\domat\\Test_REPO\\YoutubeDownloader.Tests\\YouTubeDownloader.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domat\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\domat\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

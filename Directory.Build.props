@@ -1,14 +1,14 @@
 <Project>
 
-    <PropertyGroups>
-        <Version>0.1.0</Version>
-        <Company>D0t-Matrix</Company>
-        <Copyright>Copyright (C) 2016-2022 Dominic Kenney</Copyright>
-        <LangVersion>latest</LangVersion>
-        <Nullable>enable</Nullable>
-        <WarningsAsErrors>nullable</WarningsAsErrors>
-        <IsPackable>false</IsPackable>
-    </PropertyGroups>
+  <PropertyGroups>
+    <Version>0.1.0</Version>
+    <Company>D0t-Matrix</Company>
+    <Copyright>Copyright (C) 2016-2022 Dominic Kenney</Copyright>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <IsPackable>false</IsPackable>
+  </PropertyGroups>
 
   <!-- Disable nullability warnings on frameworks where BCL is not annotated -->
   <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0' or '$(TargetFramework)' == 'net461'">
@@ -16,17 +16,17 @@
   </PropertyGroup>
 
   <PropertyGroup>
-      <Authors>$(Company)</Authors>
-      <PackageTags>youtube video download playlist user channel closed caption tracks subtitles parse extract metadata info net net6</PackageTags>
-      <PackageProjectUrl></PackageProjectUrl>
-      <PackageReleaseNotes></PackageReleaseNotes>
-      <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
-      <PackageIcon>favicon.png</PackageIcon>
-      <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
-      <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-      <PublishRepositoryUrl>true</PublishRepositoryUrl>
-      <EmbedUntrackedSources>true</EmbedUntrackedSources>
-      <DebugType>embedded</DebugType>
+    <Authors>$(Company)</Authors>
+    <PackageTags>youtube video download playlist user channel closed caption tracks subtitles parse extract metadata info net net6</PackageTags>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
   <ItemGroup>

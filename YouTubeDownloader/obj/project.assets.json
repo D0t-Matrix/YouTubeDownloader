@@ -177,11 +177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domat\\source\\repos\\YouTubeDownloader\\YouTubeDownloader\\YouTubeDownloader.csproj",
+      "projectUniqueName": "C:\\Users\\domat\\Test_REPO\\YouTubeDownloader\\YouTubeDownloader.csproj",
       "projectName": "YouTubeDownloader",
-      "projectPath": "C:\\Users\\domat\\source\\repos\\YouTubeDownloader\\YouTubeDownloader\\YouTubeDownloader.csproj",
+      "projectPath": "C:\\Users\\domat\\Test_REPO\\YouTubeDownloader\\YouTubeDownloader.csproj",
       "packagesPath": "C:\\Users\\domat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domat\\source\\repos\\YouTubeDownloader\\YouTubeDownloader\\obj\\",
+      "outputPath": "C:\\Users\\domat\\Test_REPO\\YouTubeDownloader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vy2DgbqAdIL+8T8qX6vUtoHUi5jLhvMnDqbD07a7GnKP/KITDx73px8Ds4Os0iuj4x95Pa8+3wqmdTsQCZ4Ebg==",
+  "dgSpecHash": "0X5/ddUSU+LId+QB22pbSKCVO7g9+7HIHgbhIou/KiWtRY+aidhw+EjF39MV0RlYI9vIjH1pH++r5FaqpXvo1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domat\\source\\repos\\YouTubeDownloader\\YouTubeDownloader.Converter.Tests\\YouTubeDownloader.Converter.Tests.csproj",
+  "projectFilePath": "C:\\Users\\domat\\Test_REPO\\YouTubeDownloader.Converter.Tests\\YouTubeDownloader.Converter.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domat\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
     "C:\\Users\\domat\\.nuget\\packages\\cliwrap\\3.4.2\\cliwrap.3.4.2.nupkg.sha512",
