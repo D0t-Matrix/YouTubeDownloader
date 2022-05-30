@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		favicon.png = favicon.png
 		LICENSE = LICENSE
 		License.txt = License.txt
-		ReadMe.md = ReadMe.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.Converter", "YoutubeDownloader.Converter\YouTubeDownloader.Converter.csproj", "{1334D6AC-E09C-47DA-B907-E692688F898F}"
